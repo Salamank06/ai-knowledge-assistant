@@ -230,7 +230,22 @@ Pydantic rechaza cuando `question`:
 
 ---
 
-## 8. Checklist de entrega
+## 8. Evidencias
+
+Las capturas y salidas que respaldan la entrega están en la carpeta [`evidencias/`](./evidencias/) e incluyen:
+
+- Swagger UI en `/docs`, `GET /health`, `GET /api/v1/info`
+- `POST /api/v1/chat` con respuesta válida (200) y con validación 422 (pregunta corta y campo faltante)
+- Salida completa de `pytest -v` con 11/11 pruebas en verde
+- Diagrama del flujo `Cliente → FastAPI → Pydantic → Service → Response`
+- Historia de Git (commits, ramas y remoto)
+- Pull Request abierto en GitHub
+
+Ver el índice completo en [`evidencias/README.md`](./evidencias/README.md).
+
+---
+
+## 9. Checklist de entrega
 
 - [x] Python 3.12+ · `.venv` creado y excluido del repo
 - [x] `pyproject.toml` con dependencias y extras `dev`
@@ -248,6 +263,6 @@ Pydantic rechaza cuando `question`:
 
 ---
 
-## 9. Licencia
+## 10. Licencia
 
 Material académico del curso **Ingeniería de Sistemas de IA** — uso educativo.
