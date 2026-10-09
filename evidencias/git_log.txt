@@ -1,0 +1,12 @@
+﻿* caf1f15 (HEAD -> feat/bootstrap-api, origin/feat/bootstrap-api) chore: track empty __init__.py files for python packages
+* 8a0de11 docs: add comprehensive README with setup, contracts and checklist
+* f401ac7 test: add integration test suite for bootstrap API
+* e343be3 test: add unit test for bootstrap chat service
+* 163a13e feat: add AsyncIO + HTTPX concurrent demo and smoke test
+* bb12e89 feat: wire FastAPI app factory and include routers
+* ae6761a feat: add bootstrap chat endpoint with service dependency
+* ec37943 feat: add health and project info endpoints
+* 9f74542 feat: add bootstrap chat service with async signature
+* 4da837d feat: add pydantic schemas for chat, info and health
+* 7e38cec feat: add application configuration and metadata
+* 5a6d51d (origin/main, main) chore: initialize AI knowledge assistant project with pyproject and gitignore

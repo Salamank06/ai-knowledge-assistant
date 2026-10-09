@@ -1,0 +1,2 @@
+﻿origin	https://github.com/Salamank06/ai-knowledge-assistant.git (fetch)
+origin	https://github.com/Salamank06/ai-knowledge-assistant.git (push)
